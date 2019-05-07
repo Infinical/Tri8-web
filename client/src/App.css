@@ -1,0 +1,40 @@
+:root {
+  --mainBlack: #1e1014;
+  --mainWhite: #f2f4f3;
+  --mainRed: #f52f5f;
+}
+
+body {
+  font-family: "Roboto Slab", serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
+}
+
+.text-title {
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+.text-red {
+  color: var(--mainRed);
+}
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainBlack);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainBlack) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainBlack) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainRed);
+}
